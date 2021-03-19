@@ -42,10 +42,10 @@ public class TestController {
         return customerRepository.findAll();
     }
 
-    @GetMapping("/list6")
-    public List<Customer> createList6(){
-        return customerRepository.findAll();
-    }
+//    @GetMapping("/list6")
+//    public List<Customer> createList6(){
+//        return customerRepository.findAll();
+//    }
 
 //
 //    @PostMapping("/tutorials")
