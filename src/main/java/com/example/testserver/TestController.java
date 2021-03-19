@@ -47,14 +47,13 @@ public class TestController {
 //        return customerRepository.findAll();
 //    }
 
-
-    @GetMapping("/list7")
-    public List<Customer> createList7(){
+    @GetMapping("/list8")
+    public List<Customer> createList5(){
         return customerRepository.findAll();
     }
 
-    @GetMapping("/list8")
-    public List<Customer> createList7(){
+    @GetMapping("/list9")
+    public List<Customer> createList9(){
         return customerRepository.findAll();
     }
 
