@@ -37,6 +37,10 @@ public class TestController {
     public List<Customer> createList4(){
         return customerRepository.findAll();
     }
+    @GetMapping("/list5")
+    public List<Customer> createList5(){
+        return customerRepository.findAll();
+    }
 //
 //    @PostMapping("/tutorials")
 //    public ResponseEntity<Tutorial> createTutorial(@RequestBody Tutorial tutorial) {
