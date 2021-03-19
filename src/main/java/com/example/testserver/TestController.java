@@ -28,8 +28,8 @@ public class TestController {
         return customerRepository.findAll();
     }
 
-    @GetMapping("/list2")
-    public List<Customer> createList2(){
+    @GetMapping("/list3")
+    public List<Customer> createList3(){
         return customerRepository.findAll();
     }
 //
