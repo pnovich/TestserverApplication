@@ -8,7 +8,7 @@ public class Event {
     @Override
     public String toString() {
         return "Event{" +
-                "title='" + title + '\'' +
+                "the title='" +  title + '\'' +
                 '}';
     }
 }
